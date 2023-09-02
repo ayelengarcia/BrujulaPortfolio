@@ -1,24 +1,32 @@
+import { useState } from "react";
 import Header from "./components/Header/Header";
-import Title from "./components/Title/Title";
-import Invitation from "./components/Invitation/Invitation";
-import Ubicacion from "./components/Ubicacion/Ubicacion";
-import Asistencia from "./components/Asistencia/Asistencia";
-import Regalos from "./components/Regalos/Regalos";
+import About from "./components/About/About";
+import Certificate from "./components/Certificate/Certificate";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Project/Projects";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import { ThemeProvider } from "styled-components";
 import { Animations } from "./Keyframes.styled";
+import { StyledApp } from "./App.styled";
+import Themes from "./components/Themes";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
   return (
-    <div>
-      <Header />
-      <Title />
-      <Invitation />
-      <Ubicacion />
-      <Asistencia />
-      <Regalos />
-      <Footer />
-      <Animations />
-    </div>
+    <ThemeProvider theme={Themes[theme]}>
+      <StyledApp>
+        <Header theme={theme} setTheme={setTheme} />
+        <About />
+        <Certificate />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+        <Animations />
+      </StyledApp>
+    </ThemeProvider>
   );
 }
 
