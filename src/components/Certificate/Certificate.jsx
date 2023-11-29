@@ -66,7 +66,7 @@ const certificate = () => {
                 alt="Logo CoderHouse"
                 className="logo-coder pt-2"
               />
-              <h2 className="curso title">{cert.title}</h2>
+              <h4 className="curso">{cert.title}</h4>
               <div className="d-flex gap-3">
                 <div className="academ p-1 px-2">Coder House</div>
                 <div className="fecha p-1 px-2">{cert.date}</div>

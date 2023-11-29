@@ -17,7 +17,10 @@ export const Certificate = styled.div`
   }
 
   .curso {
-    font-size: 1.1rem !important;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 150%;
+    font-size: 1.1rem;
   }
 
   .logo-coder {
