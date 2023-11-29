@@ -1,34 +1,101 @@
 import { useState } from "react";
 import Habilidades from "../../../Habilidades.json";
 import SkillCard from "./SkillCard";
-import {Skills} from "./Skills.styled"
+import { Skills } from "./Skills.styled";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 8,
+  slidesToScroll: 3,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 5,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+    {
+      breakpoint: 560,
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+  ],
+};
 
 const skills = () => {
   const [skills, setProductos] = useState(Habilidades);
 
-  return (
-    <Skills id="skills" className="row container-fluid m-0 py-3">
-      <h2 className="p-3 d-flex justify-content-center title">MIS HABILIDADES</h2>
+  const PrevArrow = ({ onClick }) => {
+    return (
+      <div className="slick-arrow arrow-prev" onClick={onClick}>
+        <FaArrowLeft />
+      </div>
+    );
+  };
 
-      <div className="col-12 d-flex justify-content-around flex-wrap gap-2">
-        {skills.map((card) => {
-          return (
-            <SkillCard
-              key={card.id}
-              img={card.img}
-              alt={card.alt}
-              clase={card.clase}
-              skill={card.skill}
-            />
-          );
-        })}
+  const NextArrow = ({ onClick }) => {
+    return (
+      <div className="slick-arrow arrow-next" onClick={onClick}>
+        <FaArrowRight />
+      </div>
+    );
+  };
+
+  return (
+    <Skills id="skills" className="container-fluid m-0 py-3">
+      <h2 className="p-3 d-flex justify-content-center title">
+        MIS HABILIDADES
+      </h2>
+
+      <div>
+        <Slider
+          {...settings}
+          prevArrow={<PrevArrow />}
+          nextArrow={<NextArrow />}
+          className="d-flex justify-content-center align-items-center p-0"
+        >
+          {skills.map((card) => {
+            return (
+              <SkillCard
+                key={card.id}
+                img={card.img}
+                alt={card.alt}
+                clase={card.clase}
+                skill={card.skill}
+              />
+            );
+          })}
+        </Slider>
       </div>
 
-      <div className="row d-flex justify-content-center align-items-center pb-1 gap-1">
-        <p className="col-12 col-lg-6 pt-3">
-          Me gusta conocer y aprender nuevas herramientas y habilidades   continuamente. Además de React JS, estoy aprendiento Next JS y Context. Proximamente iniciaré algunos cursos intensivos de UX/UI. Siempre actualizo mis prácticas en mi repositorio, te invito a verlo!
+      <div className="row d-flex justify-content-center align-items-center pt-3 gap-1">
+        <p className="p-5 pb-0">
+          Me gusta explorar y aprender nuevas herramientas y habilidades
+          constantemente. Actualmente, estoy profundizando en tecnologías del
+          backend y aplicando lo aprendido en proyectos prácticos. Siempre estoy
+          actualizando y poniendo en práctica mis conocimientos en mi
+          repositorio de GitHub. ¡Te invito a visitarlo!
         </p>
-        <a href="https://github.com/ayelengarcia/" target="_blank" className="text-decoration-none d-flex justify-content-center col-10 col-lg-3 col-xl-2">
+        <a
+          href="https://github.com/ayelengarcia/"
+          target="_blank"
+          className="text-decoration-none d-flex justify-content-center col-10 col-lg-3 col-xl-2 pt-0"
+        >
           <button className=" btn-git p-1 px-2 mb-3">
             <i className="bi bi-github pe-2"></i>Github-Profile
           </button>

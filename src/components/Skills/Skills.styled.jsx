@@ -8,15 +8,47 @@ export const Skills = styled.div`
   .cont-skill {
     background-color: #9b59b6;
     border-radius: 8px;
+    width: 120px;
+    height: 120px;
   }
 
   .cont-skill:hover {
-    transform: translateY(-15px);
-    box-shadow: ${({ theme }) => theme.btnShadow};
-    transition: 0.5s;
+    transform: scale(1.05);
+    transition: transform 1s;
+    cursor: url("/assets/cursor.png"), auto;
   }
 
   .name-skill {
     color: #f9f9f9;
+  }
+
+  .slick-arrow {
+    background-color: #fefdfda1;
+    color: #9b59b6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  .slick-arrow:hover {
+    background-color: white;
+    color: #9b59b6;
+  }
+
+  .arrow-prev {
+    left: -5px;
+  }
+
+  .arrow-next {
+    right: -5px;
   }
 `;

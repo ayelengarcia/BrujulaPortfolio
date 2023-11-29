@@ -37,7 +37,7 @@ export const StyledApp = styled.div`
     border-radius: 8px;
     z-index: 2;
     position: relative;
-    top: 15px;
+    top: -5px;
   }
 
   .btn-git:hover {
