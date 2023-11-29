@@ -28,7 +28,7 @@ export const About = styled.div`
     color: #ce87ec;
   }
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .jr-front {

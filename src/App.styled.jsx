@@ -19,6 +19,8 @@ export const StyledApp = styled.div`
     color: #f9f9f9;
     border-radius: 8px;
     z-index: 2;
+    font-size: 0.9rem;
+    margin-top: -3px;
   }
 
   .btn-cv:hover {

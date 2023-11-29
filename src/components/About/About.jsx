@@ -28,16 +28,17 @@ const about = () => {
           SOY <span className="nombre">AYELEN GARCÍA,</span>
         </h1>
         <h2 className="jr-front">JR FRONTEND DEVELOPER</h2>
-        <p className="p-4 pb-0">
-          Me dicen Aye o Bruju, <br /> Quienes me conocen saben que soy una
-          persona muy <span>resolutiva y práctica!.</span> Soy espontanea,
-          intuitiva, creativa y me encanta el mundo del gaming, de donde viene
-          mi{" "}
+        <p className="p-4 pb-0 pt-2">
+          Soy Aye, también conocida como Brujula en el mundo digital, <br />
+          Me destaco por ser <span>resolutiva y práctica!.</span> Quienes me
+          conocen destacan mi espontaneidad, intuición y creatividad. Además me
+          encanta el mundo del gaming, de donde viene mi{" "}
           <span>
             pasión por el mundo de la tecnología y el diseño de interfaz!
           </span>{" "}
-          <br /> Actualmente me encuentro terminando la carrera de Fronted Dev
-          en <span>CoderHouse.</span>
+          <br /> Actualmente, me aventuro en el desarrollo como Frontend
+          Developer, con estudios recientes en programación Backend en{" "}
+          <span>CoderHouse.</span>
         </p>
       </div>
       <div className="col-lg-3 m-0 p-0"></div>
@@ -45,7 +46,7 @@ const about = () => {
         className="cont-btn col-12 d-flex justify-content-center px-0"
         onClick={() => changeStatus(!statusModal)}
       >
-        <button className="col-5 col-lg-2 btn-cv p-1 ">
+        <button className="col-5 col-lg-2 btn-cv p-1">
           <i className="bi bi-download pe-2"></i>Descargar CV
         </button>
       </div>
