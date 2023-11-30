@@ -13,7 +13,7 @@ export const Certificate = styled.div`
     border: 2px solid #9b59b6;
     border-radius: 10px;
     min-height: 305px;
-    min-width: 350px;
+    min-width: 320px;
   }
 
   .curso {

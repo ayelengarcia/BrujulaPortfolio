@@ -23,7 +23,7 @@ export const Projects = styled.div`
     top: -100px;
     width: 60%;
     height: 160%;
-    background: linear-gradient(#ff00c8, #8c00ff);
+    background: linear-gradient(270deg, #c784fe 0%, #fd85e3 104.02%);
     animation: rotate 4s linear infinite;
     overflow: hidden;
   }
@@ -33,7 +33,7 @@ export const Projects = styled.div`
     position: absolute;
     background: #9b59b6;
     border-radius: 5px;
-    inset: 4px;
+    inset: 3px;
   }
 
   .project-container:hover {
@@ -54,5 +54,11 @@ export const Projects = styled.div`
 
   p {
     z-index: 2;
+  }
+
+  @media (min-width: 800px) {
+    .project-container {
+      width: 47%;
+    }
   }
 `;

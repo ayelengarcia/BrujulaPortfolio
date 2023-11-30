@@ -33,4 +33,9 @@ export const Contact = styled.div`
     font-size: 1.8rem;
     color: #9b59b6;
   }
+
+  p,
+  a {
+    font-size: 1rem;
+  }
 `;

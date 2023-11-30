@@ -11,15 +11,15 @@ const contact = () => {
       </a>
 
       <div className="d-flex justify-content-around flex-wrap pb-4">
-        <p className="col-12 col-xl-4 ps-5">
+        <p className="col-12 col-xl-4 ps-5 d-flex align-items-center">
           <i className="bi bi-whatsapp pe-1"></i>+541124979403
         </p>
-        <p className="col-12 col-xl-4 ps-5">
+        <p className="col-12 col-xl-4 ps-5 d-flex align-items-center">
           <i className="bi bi-envelope-at-fill pe-1"></i>ayelengarcia7@gmail.com
         </p>
-        <p className="col-12 col-xl-4 ps-5">
+        <p className="col-12 col-xl-4 ps-5 ">
           <a
-            className="a"
+            className="a d-flex align-items-center"
             href="https://www.linkedin.com/in/ayelen-garc%C3%ADa-595457232/"
             target="_blank"
           >

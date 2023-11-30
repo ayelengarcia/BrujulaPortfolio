@@ -1,15 +1,6 @@
 [
   {
     "id": 1,
-    "image": "/assets/FineGames.png",
-    "title": "FINE GAMES",
-    "subtitle": "HTML, CSS, JS, SASS, BOOTSTRAP, PROMISES y librerías.",
-    "description": "Se trata de un simulador Ecomerce de una Store de juegos inspirada en algunas de las más conocidas. Se desarrolló con JavaScript vanilla, se utilizó tecnología AJAX, Fetch y Json para simular el intercambio backend y el consumo de API. Se utilizó bootstrap como framework, sin embargo la mayorÍa de modales y eventos fueron creadas con CSS puro y Js.",
-    "repo": "https://github.com/ayelengarcia/FineGames.ProyectoCoder-JS",
-    "web": "https://ayelengarcia.github.io/FineGames.ProyectoCoder-JS/"
-  },
-  {
-    "id": 2,
     "image": "/assets/BrujuVG.png",
     "title": "BRUJULA VEGAN",
     "subtitle": "HTML, CSS, SASS, BOOTSTRAP, SEO, JS, JSON y Fetch.",
@@ -18,11 +9,21 @@
     "web": "https://brujula-vegan.000webhostapp.com/"
   },
   {
+    "id": 2,
+    "image": "/assets/FineGames.png",
+    "title": "FINE GAMES",
+    "subtitle": "HTML, CSS, JS, SASS, BOOTSTRAP, PROMISES y librerías.",
+    "description": "Simulador Ecomerce de Store de juegos inspirada en algunas de las más conocidas. Desarrollo con JavaScript vanilla, utilización de tecnología AJAX, Fetch y JSON para simular el intercambio Backend y el consumo de API. Se utilizó bootstrap como framework, sin embargo la mayorÍa de modales y eventos fueron creadas con CSS puro y Js.",
+    "repo": "https://github.com/ayelengarcia/FineGames.ProyectoCoder-JS",
+    "web": "https://ayelengarcia.github.io/FineGames.ProyectoCoder-JS/"
+  },
+
+  {
     "id": 3,
     "image": "/assets/PortfolioBrujula.png",
     "title": "PORTFOLIO BRUJULA",
     "subtitle": "HTML, CSS, REACT JS, NODE JS, BOOTSTRAP, Styled-Components, ANIMACIONES, Themes, Hooks",
-    "description": "Portafolio personal realizado con entorno de Reacts JS. Se trabajó cada sección por componentes. Instalación y utilización del framework bootstrap, styled-components para los Temas y otras librerías. Enfoque First mobile. Estilos y animaciones con CSS, uso de Hook State.",
+    "description": "Portafolio personal realizado con framework Reacts. Desarrollo de secciones por composición. Integración y uso de Librerías Bootstrap y ChakraUI para los estilos, styled-components para los Temas (Ligth-Dark), react-slick para sliders y carouseles, compilacion con Vite Js. Enfoque First mobile. Estilos y animaciones con CSS, Hooks de estado, JSON.",
     "repo": "https://github.com/ayelengarcia/BrujulaPortfolio",
     "web": "https://brujulaportfolio.netlify.app/"
   },
@@ -30,18 +31,43 @@
     "id": 4,
     "image": "/assets/shoply.png",
     "title": "SHOPLY GAMER",
-    "subtitle": "REACT JS, HTML, CSS, CHAKRA UI.",
-    "description": "Proyecto final React js CoderHouse. Se trata de un ecommerce de componentes para PC y Gaming. Creando brand, landing y componentes. Estilos con libreria ChakraUI, JSON, Promises, axios (Fetch), rutas dinámicas (react-router-dom), hooks, etc. En desarrollo.",
+    "subtitle": "REACT JS, HTML, CSS, CHAKRA UI, Firebase, Context, Customs Hooks & Hook effect.",
+    "description": "Proyecto React CoderHouse. Simulador Ecommerce de componentes para PC y Gaming. Desarrollo natural de React por composición. Integración de Firebase como BD. Manejo e integración de librerías y tecnicas como React Context (arbol de componentes, traspaso de props), React Router Dom (rutas dinámicas y App SPA), estilos con librería ChakraUI (sistema de grillas), Custom Hook de la Base de datos, etc.",
     "repo": "https://github.com/ayelengarcia/shoplygamer",
     "web": "https://shoplygamer.netlify.app/"
   },
   {
     "id": 5,
-    "image": "/assets/Form-Validator.png",
-    "title": "FORM VALIDATOR",
-    "subtitle": "JAVA SCRIPT, HTML, CSS, BOOTSTRAP.",
-    "description": "Challenge de validación de formulario. Requiere completado de todos los campos, nombre de usuario, correo electrónico, contraseña y confirmación.",
-    "repo": "https://github.com/ayelengarcia/Form-Validator",
-    "web": "https://ayelengarcia.github.io/Form-Validator/"
+    "image": "/assets/LandPage.png",
+    "title": "TARGETA DIGITAL",
+    "subtitle": "REACT JS, HTML, CSS, Boostrap, styled-components, Hooks efeccts & state.",
+    "description": "El siguiente proyecto es una Landing Page a pedido de una clienta que requería una invitación digital para la celebración de su boda. Desarrollo React Js desde framework Vite Js. Se utilizaron Hooks de estado y efectos para el counter, copiado y algunas vistas responsivas.  Enfoque First mobile",
+    "repo": "https://github.com/ayelengarcia/invitacionboda-soledadybrian/tree/main",
+    "web": "https://celebracion-boda.netlify.app/"
+  },
+  {
+    "id": 6,
+    "image": "/assets/FundNave.png",
+    "title": "FUNDACIÓN NAVE",
+    "subtitle": "REACT JS, HTML, CSS, CHAKRA UI, MongoDB, Express, Hooks, etc.",
+    "description": "En desarrollo. Sitio Web para Fundación NAVE. Dispositivo sin fines de lucro que brinda acompañamiento en salud Salud Mental y Legales a niños y adolescentes. Se tratará de una APP SPA, con integración frontend & backend e integración de método de pago para las donaciones.",
+    "web": "https://fundacion-nave.netlify.app/"
+  },
+  {
+    "id": 7,
+    "image": "/assets/bikininfa.png",
+    "title": "BIKININFA",
+    "subtitle": "Express, MongoDB, Cookies, JWT token, handlebars, passport, socket io, testing, Mailing, etc",
+    "description": "En desarrollo. Proyecto Backend CoderHouse. Ecommerce con integración frontend desde handlebars. Desarrollo de Server Express con tecnologías actuales, persistencia de datos, escalabilidad,  lógica de Session con Passport (local, github, google), estrategias de autenticacion y autorizacion con JWT, cookies, documentación de API, testing, parselas de pago, chat en tiempo real, arquitectura por capas, Mailing, etc.",
+    "repo": "https://github.com/ayelengarcia/ProyectoBackend"
+  },
+  {
+    "id": 8,
+    "image": "/assets/suscription.png",
+    "title": "SUSCRIPCIÓN INCONTINENCIAS",
+    "subtitle": "HTML, CSS, JS vanilla, Express, MongoDB, Express, Dotenv, etc.",
+    "description": "Landing Page, encuesta de satifacción con fin de suscripción recurrente. Consumo de productos por API (Server backend). La extracciòn de datos de respuesta del cliente son guardados en MongoDB (Base de datos) por API. Descarga de datos desde el frontend como CSV. En instancia de testing.",
+    "repo": "https://github.com/ayelengarcia/suscripciones-front-netifly",
+    "web": "https://encuesta-centraloeste.netlify.app/"
   }
 ]

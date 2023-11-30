@@ -13,14 +13,13 @@ export const StyledApp = styled.div`
 
   .btn-cv {
     position: relative;
-    top: 15px;
     background-color: #9b59b6;
     border: 1px solid rgba(0, 0, 0, 0.692);
     color: #f9f9f9;
     border-radius: 8px;
     z-index: 2;
     font-size: 0.9rem;
-    margin-top: -3px;
+    top: -5px;
   }
 
   .btn-cv:hover {
