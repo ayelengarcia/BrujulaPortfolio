@@ -14,15 +14,14 @@ const CertificateCarousel = () => {
       certificateLink:
         "https://www.coderhouse.com/certificados/63489fedfc92c5000eed23cf",
     },
-    // Agrega aquí los otros certificados con la misma estructura de datos
-    // ...
+
   ];
 
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3, // Muestra tres certificados por slide
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
 

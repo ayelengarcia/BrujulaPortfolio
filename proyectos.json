@@ -59,7 +59,8 @@
     "title": "BIKININFA",
     "subtitle": "Express, MongoDB, Cookies, JWT token, handlebars, passport, socket io, testing, Mailing, etc",
     "description": "En desarrollo. Proyecto Backend CoderHouse. Ecommerce con integración frontend desde handlebars. Desarrollo de Server Express con tecnologías actuales, persistencia de datos, escalabilidad,  lógica de Session con Passport (local, github, google), estrategias de autenticacion y autorizacion con JWT, cookies, documentación de API, testing, parselas de pago, chat en tiempo real, arquitectura por capas, Mailing, etc.",
-    "repo": "https://github.com/ayelengarcia/ProyectoBackend"
+    "repo": "https://github.com/ayelengarcia/ProyectoBackend",
+    "web": "https://proyectobackend-production-a5d4.up.railway.app/"
   },
   {
     "id": 8,
