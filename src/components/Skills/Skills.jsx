@@ -87,7 +87,8 @@ const skills = () => {
         <p className="p-5 pb-0">
           Me gusta explorar y aprender nuevas herramientas y habilidades
           constantemente. Actualmente, estoy profundizando en tecnologías del
-          backend y aplicando lo aprendido en proyectos prácticos. Siempre estoy
+          backend y aplicando lo aprendido en proyectos prácticos. Como próximos
+          pasos planeo desarrollarme en SQL y React Native. Siempre estoy
           actualizando y poniendo en práctica mis conocimientos en mi
           repositorio de GitHub. ¡Te invito a visitarlo!
         </p>
