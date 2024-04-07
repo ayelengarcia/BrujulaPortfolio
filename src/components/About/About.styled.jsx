@@ -26,9 +26,10 @@ export const About = styled.div`
   .nombre,
   span {
     color: #ce87ec;
+    font-size: 0.95rem;
   }
   p {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
 
   .jr-front {

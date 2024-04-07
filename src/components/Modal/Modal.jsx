@@ -18,10 +18,10 @@ const modal = ({ estado, cambiarEstado }) => {
                 download
                 className="p-2 cv"
               >
-                <h5 className="d-flex align-items-center">
-                  <i className="bi bi-file-earmark-pdf-fill pe-2"></i>Descargar
-                  ahora
-                </h5>
+                <h6 className="d-flex align-items-center">
+                  <i className="bi bi-file-earmark-pdf-fill pe-2"></i>CV Ayelen
+                  Abril 2024
+                </h6>
               </a>
             </div>
           </div>

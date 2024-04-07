@@ -19,7 +19,7 @@ export const StyledApp = styled.div`
     border-radius: 8px;
     z-index: 2;
     font-size: 0.9rem;
-    top: -5px;
+    top: 20px;
   }
 
   .btn-cv:hover {
@@ -36,7 +36,7 @@ export const StyledApp = styled.div`
     border-radius: 8px;
     z-index: 2;
     position: relative;
-    top: -5px;
+    top: 20px;
   }
 
   .btn-git:hover {

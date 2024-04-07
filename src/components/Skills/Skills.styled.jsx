@@ -51,4 +51,8 @@ export const Skills = styled.div`
   .arrow-next {
     right: -5px;
   }
+
+  p {
+    font-size: 0.95rem;
+  }
 `;

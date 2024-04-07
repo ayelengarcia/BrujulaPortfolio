@@ -110,5 +110,40 @@
     "alt": "Photoshop",
     "clase": "w-50",
     "skill": "Photoshop"
+  },
+  {
+    "id": 17,
+    "img": "/assets/magento.png",
+    "alt": "Magento",
+    "clase": "w-50",
+    "skill": "Magento"
+  },
+  {
+    "id": 18,
+    "img": "/assets/msql.png",
+    "alt": "MySQL",
+    "clase": "w-50",
+    "skill": "MySQL"
+  },
+  {
+    "id": 19,
+    "img": "/assets/googleCloud.png",
+    "alt": "GoogleCloud",
+    "clase": "w-50",
+    "skill": "GoogleCloud"
+  },
+  {
+    "id": 20,
+    "img": "/assets/next.png",
+    "alt": "Next Js",
+    "clase": "w-75",
+    "skill": "Next Js"
+  },
+  {
+    "id": 21,
+    "img": "/assets/docker.png",
+    "alt": "Docker",
+    "clase": "w-75",
+    "skill": "Docker"
   }
 ]

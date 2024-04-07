@@ -42,10 +42,14 @@ export const Projects = styled.div`
   }
 
   .title-project {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800 !important;
+    line-height: 150% !important;
     z-index: 2;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     text-shadow: 2px 2px black;
   }
+
   .subtitulo {
     z-index: 2;
     color: #d9d9d9;
@@ -56,6 +60,13 @@ export const Projects = styled.div`
     z-index: 2;
   }
 
+  img {
+    z-index: 9999;
+  }
+
+  .text {
+    font-size: 0.95rem;
+  }
   @media (min-width: 800px) {
     .project-container {
       width: 47%;

@@ -55,11 +55,13 @@ export const Header = styled.header`
   .menu {
     padding: 10px;
     font-size: 1.05rem;
+    border: 1px solid rgba(142, 68, 173, 0.13);
   }
 
   .menu-2 {
     padding: 12px;
     font-size: 1rem;
+    border: 1px solid rgba(142, 68, 173, 0.13);
   }
 
   .menu:hover,

@@ -27,18 +27,17 @@ const about = () => {
         <h1>
           SOY <span className="nombre">AYELEN GARCÍA,</span>
         </h1>
-        <h2 className="jr-front">JR FRONTEND DEVELOPER</h2>
+        <h2 className="jr-front">FULLSTACK DEVELOPER</h2>
         <p className="p-4 pb-0 pt-2">
-          Soy Aye, también conocida como Brujula en el mundo digital, <br />
-          Me destaco por ser <span>resolutiva y práctica!.</span> Quienes me
-          conocen destacan mi espontaneidad, intuición y creatividad. Además me
-          encanta el mundo del gaming, de donde viene mi{" "}
-          <span>
-            pasión por el mundo de la tecnología y el diseño de interfaz!
-          </span>{" "}
-          <br /> Actualmente, me aventuro en el desarrollo como Frontend
-          Developer, con estudios recientes en programación Backend en{" "}
-          <span>CoderHouse.</span>
+          Actualmente me desempeño como Desarrolladora{" "}
+          <span>Frontend y FullStack</span> con 2 años de experiencia. Me
+          encanta el mundo del gaming y trabajo con esa inspiración en la
+          mayoría de mis proyectos personales.
+          <br />
+          Cuando me enfrento a proyectos desafiantes suelo ser exhaustiva e
+          intuitiva para llegar a mis objetivos. Me motiva poner mis
+          conocimientos a prueba y tener la oportunidad de crecer y{" "}
+          <span>adquirir mayor experiencia en el mundo IT.</span>
         </p>
       </div>
       <div className="col-lg-3 m-0 p-0"></div>
@@ -47,7 +46,7 @@ const about = () => {
         onClick={() => changeStatus(!statusModal)}
       >
         <button className="col-5 col-lg-2 btn-cv p-1">
-          <i className="bi bi-download pe-2"></i>Descargar CV
+          <i className="bi bi-download pe-2"></i> Descargar CV
         </button>
       </div>
       <Modal estado={statusModal} cambiarEstado={changeStatus} />

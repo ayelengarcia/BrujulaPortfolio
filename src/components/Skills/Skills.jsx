@@ -85,12 +85,12 @@ const skills = () => {
 
       <div className="row d-flex justify-content-center align-items-center pt-3 gap-1">
         <p className="p-5 pb-0">
-          Me gusta explorar y aprender nuevas herramientas y habilidades
-          constantemente. Actualmente, estoy profundizando en tecnologías del
-          backend y aplicando lo aprendido en proyectos prácticos. Como próximos
-          pasos planeo desarrollarme en SQL y React Native. Siempre estoy
-          actualizando y poniendo en práctica mis conocimientos en mi
-          repositorio de GitHub. ¡Te invito a visitarlo!
+          Me gusta explorar y aprender nuevas tecnologías y habilidades. He
+          aprendido y aplicado de manera autónoma a utilizar tecnologías como
+          MSQL con (DB maria), GoogleCloud, Docker, NextJs y Diferentes APIrest
+          en proyectos productivos. Próximamente planeo profundizar en Nextjs y
+          React Native. Siempre estoy actualizando y poniendo en práctica mis
+          conocimientos en mi repositorio de GitHub. ¡Te invito a visitarlo!
         </p>
         <a
           href="https://github.com/ayelengarcia/"
