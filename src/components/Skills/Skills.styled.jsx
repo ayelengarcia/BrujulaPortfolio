@@ -8,8 +8,8 @@ export const Skills = styled.div`
   .cont-skill {
     background-color: #9b59b6;
     border-radius: 8px;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
 
   .cont-skill:hover {
@@ -20,6 +20,11 @@ export const Skills = styled.div`
 
   .name-skill {
     color: #f9f9f9;
+    font-size: 0.8rem;
+  }
+
+  .text-more {
+    text-align: justify;
   }
 
   .slick-arrow {

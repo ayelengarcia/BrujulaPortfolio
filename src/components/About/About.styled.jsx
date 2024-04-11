@@ -32,8 +32,12 @@ export const About = styled.div`
     font-size: 0.95rem;
   }
 
+  .text-more {
+    text-align: justify;
+  }
+
   .jr-front {
-    width: 22ch;
+    width: 21ch;
     display: block;
     overflow: hidden;
     white-space: nowrap;

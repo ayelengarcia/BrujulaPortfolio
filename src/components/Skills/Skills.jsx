@@ -10,8 +10,8 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const settings = {
   dots: true,
   infinite: true,
-  speed: 500,
-  slidesToShow: 8,
+  speed: 600,
+  slidesToShow: 9,
   slidesToScroll: 3,
   autoplay: true,
   autoplaySpeed: 4000,
@@ -31,7 +31,7 @@ const settings = {
     {
       breakpoint: 560,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
       },
     },
   ],
@@ -84,7 +84,7 @@ const skills = () => {
       </div>
 
       <div className="row d-flex justify-content-center align-items-center pt-3 gap-1">
-        <p className="p-5 pb-0">
+        <p className="p-3 pb-0 text-more">
           Me gusta explorar y aprender nuevas tecnologías y habilidades. He
           aprendido y aplicado de manera autónoma a utilizar tecnologías como
           MSQL con (DB maria), GoogleCloud, Docker, NextJs y Diferentes APIrest

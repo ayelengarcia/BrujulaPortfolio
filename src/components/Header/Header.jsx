@@ -1,4 +1,5 @@
 import { Header } from "./Header.styled";
+import { Link } from "react-router-dom";
 
 const header = (props) => {
   const changeTheme = () => {
@@ -25,24 +26,24 @@ const header = (props) => {
           </div>
           <ul className="col-8 d-none d-sm-flex justify-content-center m-0 p-0 pt-1 ps-4 gap-md-5">
             <li>
-              <a className="menu d-flex" href="index.html#about">
+              <a className="menu d-flex" href="#about">
                 Sobre mi
               </a>
             </li>
             <li>
-              <a className="menu d-flex" href="index.html#skills">
+              <a className="menu d-flex" href="#skills">
                 Habilidades
               </a>
             </li>
             <li>
-              <a className="menu d-flex" href="index.html#projects">
+              <a className="menu d-flex" href="#projects">
                 Proyectos
               </a>
             </li>
           </ul>
           <ul className="col-2 d-flex gap-1 justify-content-end align-items-end mb-0">
             <li>
-              <a className="contact" href="index.html#contact">
+              <a className="contact" href="#contact">
                 <i className="bi bi-chat-left-dots"></i>
               </a>
             </li>
@@ -56,17 +57,17 @@ const header = (props) => {
         <div className="col-12 divider my-2"></div>
         <ul className="col-12 d-sm-none d-flex justify-content-center m-0 p-0">
           <li>
-            <a className="menu-2" href="index.html#about">
+            <a className="menu-2" href="#about">
               Sobre mi
             </a>
           </li>
           <li>
-            <a className="menu-2" href="index.html#skills">
+            <a className="menu-2" href="#skills">
               Habilidades
             </a>
           </li>
           <li>
-            <a className="menu-2" href="index.html#projects">
+            <a className="menu-2" href="#projects">
               Proyectos
             </a>
           </li>

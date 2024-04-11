@@ -28,7 +28,7 @@ const about = () => {
           SOY <span className="nombre">AYELEN GARCÍA,</span>
         </h1>
         <h2 className="jr-front">FULLSTACK DEVELOPER</h2>
-        <p className="p-4 pb-0 pt-2">
+        <p className="pb-0 pt-2 text-more">
           Actualmente me desempeño como Desarrolladora{" "}
           <span>Frontend y FullStack</span> con 2 años de experiencia. Me
           encanta el mundo del gaming y trabajo con esa inspiración en la

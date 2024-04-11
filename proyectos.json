@@ -4,7 +4,7 @@
     "image": "/assets/comunidad.png",
     "title": "FORMULARIO DE AUTOGESTIÓN",
     "subtitle": "React Js, CSS, Express, JWT token, MySQL, Express, APIrest, Docker, GoogleCloud.",
-    "description": "Formulario de registro para programa de beneficios de Farmacias Central Oeste. Los usuarios se conectan al mismo a través de un QR. Al ingresar su DNI el cliente del formulario consulta por API a la BD maría, si no está registrado se realiza el envío por email del formulario para la autenticación del email. El mismo cuenta con un token de seguridad con un tiempo definido. Además de las APIs de consulta/alta y mailing, el cliente del formulario se comunica con la api de apis.datos.gob.ar y tiene integracion con datapickers de Material UI. En producción.",
+    "description": "Formulario de registro para programa de beneficios de Farmacias Central Oeste. Los usuarios se conectan al mismo a través de un QR. Al ingresar su DNI el cliente del formulario consulta por API a la BD maría, si no está registrado se realiza el envío por email del formulario para la autenticación del email. El mismo cuenta con un token de seguridad con un tiempo definido. Además de las APIs de consulta/alta y mailing, el cliente del formulario se comunica con la api de apis.datos.gob.ar y tiene integracion con datapickers de Material UI.",
     "repo": "https://github.com/ayelengarcia/Formulario-Comunidad/tree/main",
     "web": "https://comunidadcentralmas.com.ar/"
   },
@@ -13,7 +13,7 @@
     "image": "/assets/calendario.png",
     "title": "CALENDARIO DE ACTIVIDADES",
     "subtitle": "Next Js, CSS, Typescript, GoogleSheets BD.",
-    "description": "Calendario de actividades de eventos programados de Farmacias Central Oeste, con el fin de registrar a los usuarios a dichas actividades. Aplicacion Next.js con App Router. El mismo se conecta por api con un google sheets con la información de los eventos y cuenta con un registro a otra plantilla con la informacion de los usuarios. Configuracion de la metadata para los motores de búsqueda, server y client components, etc. En desarrollo.",
+    "description": "Calendario de actividades de eventos programados de Farmacias Central Oeste, con el fin de invitar y registrar a los usuarios a dichas actividades. Aplicacion Next.js con App Router. El mismo se conecta por api con un google sheets como base de datos con la información de los eventos. Search, filter y configuracion de la metadata para los motores de búsqueda, server y client components, etc.",
     "web": "https://calendario-comunidad.netlify.app/"
   },
   {
@@ -39,7 +39,7 @@
     "image": "/assets/FundNave.png",
     "title": "FUNDACIÓN NAVE",
     "subtitle": "REACT JS, HTML, CSS, CHAKRA UI, MongoDB, Express, Hooks, etc.",
-    "description": "Sitio Web Institucional para Fundación NAVE. Dispositivo sin fines de lucro que brinda acompañamiento en salud Salud Mental y Legales a niños y adolescentes. App SPA, con integración frontend & backend. El proyecto cuenta con integración de método de pago con Mercado Pago para donaciones y Formulario de contacto con Nodemailer. En producción.",
+    "description": "Sitio Web Institucional para Fundación NAVE. Dispositivo sin fines de lucro que brinda acompañamiento en salud Salud Mental y Legales a niños y adolescentes. App SPA, con integración frontend & backend. El proyecto cuenta con integración de método de pago con Mercado Pago para donaciones y Formulario de contacto con Nodemailer.",
     "web": "https://fundacion-nave.netlify.app/"
   },
   {

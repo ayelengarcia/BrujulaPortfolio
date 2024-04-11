@@ -15,6 +15,9 @@ export const Projects = styled.div`
     color: #f9f9f9;
     border-radius: 5px;
     overflow: hidden;
+    flex-wrap: wrap;
+    padding: 25px;
+    min-height: 500px;
   }
 
   .project-container::before {
@@ -53,7 +56,7 @@ export const Projects = styled.div`
   .subtitulo {
     z-index: 2;
     color: #d9d9d9;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   p {
@@ -62,14 +65,38 @@ export const Projects = styled.div`
 
   img {
     z-index: 9999;
+    max-width: 100%;
+    height: auto;
   }
 
   .text {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
   }
+
+  .text-more {
+    text-align: justify;
+  }
+
+  .carousel-control-next {
+    right: -10px;
+    background: #00000021;
+  }
+
+  .carousel-control-prev {
+    left: -10px;
+    background: #00000021;
+  }
+
   @media (min-width: 800px) {
     .project-container {
-      width: 47%;
+      width: 100%;
+      padding: 30px 50px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .project-container {
+      flex-wrap: nowrap;
     }
   }
 `;
