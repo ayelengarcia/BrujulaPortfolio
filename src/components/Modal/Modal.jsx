@@ -14,7 +14,7 @@ const modal = ({ estado, cambiarEstado }) => {
             </span>
             <div className="d-flex flex-column justify-content-center align-items-start px-1 p-3 pt-4">
               <a
-                href="/assets/AyelenCV_DIC2023.pdf"
+                href="/assets/CV-AYELEN-ABRIL2024.pdf"
                 download
                 className="p-2 cv"
               >
