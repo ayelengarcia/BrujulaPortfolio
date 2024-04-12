@@ -12,7 +12,7 @@ const projects = () => {
       <h2 className="p-3 d-flex justify-content-center title">MIS PROYECTOS</h2>
 
       <div className="d-flex justify-content-around flex-wrap gap-3 div-projects p-0">
-        <Carousel interval={50000} fade>
+        <Carousel interval={null} fade>
           {productos.map((producto) => {
             return (
               <Carousel.Item>
