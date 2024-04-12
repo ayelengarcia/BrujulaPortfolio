@@ -17,7 +17,7 @@ export const Projects = styled.div`
     overflow: hidden;
     flex-wrap: wrap;
     padding: 25px;
-    min-height: 500px;
+    min-height: 825px;
   }
 
   .project-container::before {
@@ -91,6 +91,7 @@ export const Projects = styled.div`
     .project-container {
       width: 100%;
       padding: 30px 50px;
+      min-height: 500px;
     }
   }
 
