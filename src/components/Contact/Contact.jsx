@@ -5,8 +5,8 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const mostrarToast = () => {
-  toast.success(`Mensaje enviado. ¡Gracias!`, {
+const mostrarToast = (mensaje) => {
+  toast.success(mensaje, {
     position: "top-center",
     autoClose: 3000,
     hideProgressBar: false,
@@ -54,7 +54,7 @@ const contact = () => {
         formulario
       )
       .then((res) => {
-        mostrarToast();
+        mostrarToast(`Mensaje enviado. ¡Gracias!`);
         console.log("Mensaje enviado", res);
         setFormulario({
           nombre: "",
@@ -83,20 +83,38 @@ const contact = () => {
 
       <div className="d-flex justify-content-around align-items-center flex-wrap pb-4 gap-3">
         <div className="d-flex flex-column justify-content-start gap-1">
-          <p className="m-0">
-            <a
-              className="d-flex align-items-center m-0"
-              href="https://www.linkedin.com/in/ayelen-garc%C3%ADa-595457232/"
-              target="_blank"
-            >
+          <a
+            className="m-0 info_style"
+            href="https://www.linkedin.com/in/ayelen-garc%C3%ADa-595457232/"
+            target="_blank"
+          >
+            <p className="d-flex align-items-center m-0">
               <i className="bi bi-linkedin pe-1"></i>
               LinkedIn
-            </a>
-          </p>
-          <p className="d-flex align-items-center m-0">
-            <i className="bi bi-whatsapp pe-1"></i>Whatsapp
-          </p>
-          <p className="d-flex align-items-center m-0">
+            </p>
+          </a>
+
+          <a
+            className="m-0 info_style"
+            href="https://api.whatsapp.com/send/?phone=5491124979403&text=%C2%A1Hola+Ayelen!+Me+Contacto+desde+tu+portafolio+personal&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <p className="d-flex align-items-center m-0">
+              <i className="bi bi-whatsapp pe-1"></i>Whatsapp
+            </p>
+          </a>
+
+          <p
+            ref={(ref) => {
+              if (ref) {
+                ref.addEventListener("click", () => {
+                  navigator.clipboard.writeText("ayelengarcia7@gmail.com");
+                  mostrarToast(`¡Copiado!`);
+                });
+              }
+            }}
+            className="d-flex align-items-center m-0 info_style"
+          >
             <i className="bi bi-envelope-at-fill pe-1"></i>
             ayelengarcia7@gmail.com
           </p>

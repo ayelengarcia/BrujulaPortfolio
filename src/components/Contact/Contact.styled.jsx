@@ -90,4 +90,13 @@ export const Contact = styled.div`
     background-color: #ce87ec;
     transition: 1s;
   }
+
+  .info_style {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .info_style:hover {
+    transform: scale(1.05);
+  }
 `;
