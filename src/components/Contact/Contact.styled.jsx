@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Contact = styled.div`
   background-color: rgba(142, 68, 173, 0.13);
   color: ${({ theme }) => theme.text};
+  display: flex;
+  flex-direction: column;
+  position: relative;
 
   .bi-arrow-up-circle-fill {
-    position: relative;
     font-size: 3rem;
-    top: -150px;
     float: right;
-    right: 20px;
     color: #9b59b6;
   }
 
@@ -18,11 +18,13 @@ export const Contact = styled.div`
     transition: 1s;
   }
 
-  .a {
-    color: ${({ theme }) => theme.text};
+  .send_top {
+    position: absolute;
+    top: -40px;
+    right: 5px;
   }
 
-  .a:hover {
+  .send_top:hover {
     color: #b578ce;
     transition: 0.5s;
   }
@@ -30,12 +32,62 @@ export const Contact = styled.div`
   .bi-linkedin,
   .bi-whatsapp,
   .bi-envelope-at-fill {
-    font-size: 1.8rem;
+    font-size: 0.8rem;
     color: #9b59b6;
+    display: flex;
+    align-items: center;
   }
 
   p,
   a {
-    font-size: 1rem;
+    font-size: 0.85rem;
+    color: ${({ theme }) => theme.text};
+    text-decoration: none;
+  }
+
+  .msg_error {
+    color: red;
+  }
+
+  input,
+  textarea {
+    font-size: 0.8rem;
+    background: rgb(232, 240, 254);
+    border: solid 1px #9b59b6;
+    border-radius: 3px;
+    text-indent: 10px;
+    padding: 3px 0px;
+    color: black;
+    min-width: 200px;
+  }
+
+  textarea {
+    height: 70px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #9b59b6;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible {
+    outline: none;
+    border: 1px solid #f43fff9e;
+  }
+
+  .button {
+    background-color: #9b59b6;
+    border: 1px solid rgba(0, 0, 0, 0.692);
+    color: #f9f9f9;
+    border-radius: 3px;
+    z-index: 2;
+    font-size: 0.8rem;
+    padding: 3px 0px;
+  }
+
+  .button:hover {
+    background-color: #ce87ec;
+    transition: 1s;
   }
 `;
