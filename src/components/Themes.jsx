@@ -12,8 +12,8 @@ const DarkTheme = {
   text: "#F9F9F9",
   btnTheme: "#cba2db",
   btnThemeHover: "#00000033",
-  btnThemeIcon:"",
-  btnShadow: "-7px 7px 0px #C8B7CF",
+  btnThemeIcon: "",
+  btnShadow: "-7px 7px 0px black",
 };
 
 const Themes = {
