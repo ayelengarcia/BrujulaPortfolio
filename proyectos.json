@@ -3,7 +3,7 @@
     "id": 1,
     "title": "API PASARELA – Integraciones Backend",
     "image": "/assets/pasarela.png",
-    "subtitle": "Node.js, Express Js, Mongo DB, Botmaker, FTP, Azure, APIs REST, microservicios, integraciones y automatización",
+    "subtitle": "Node.js, Express Js, Mongo DB, Botmaker, FTP, Azure, APIs REST, microservicios, integraciones y automatización ",
     "description": "Proyecto backend orientado a la integración de múltiples servicios internos desplegados en máquinas virtuales independientes, conectados mediante una API pasarela utilizada por scripts externos en Botmaker.",
     "repo": "https://github.com/ayelengarcia/api-pasarela-integraciones",
     "web": "https://github.com/ayelengarcia/api-pasarela-integraciones"
