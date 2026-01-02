@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 14,
     "title": "API PASARELA – Integraciones Backend",
     "image": "/assets/pasarela.png",
     "subtitle": "Node.js, Express Js, Mongo DB, Botmaker, FTP, Azure, APIs REST, microservicios, integraciones y automatización ",
@@ -9,7 +9,7 @@
     "web": "https://github.com/ayelengarcia/api-pasarela-integraciones"
   },
   {
-    "id": 10,
+    "id": 13,
     "image": "/assets/comunidad.png",
     "title": "FORMULARIO DE AUTOGESTIÓN",
     "subtitle": "React Js, CSS, Express, JWT token, MySQL, Express, APIrest, Docker, GoogleCloud.",
@@ -18,7 +18,7 @@
     "web": "https://comunidadcentralmas.com.ar/"
   },
   {
-    "id": 13,
+    "id": 12,
     "image": "/assets/react-native2.png",
     "title": "Aplicación Móvil Ecommerce - REACT NATIVE",
     "subtitle": "React Native, EXPO, Firebase, Google Maps API, APK.",
@@ -27,7 +27,7 @@
     "web" : "https://github.com/ayelengarcia/shop_reactnative"
   },
   {
-    "id": 6,
+    "id": 11,
     "image": "/assets/FundNave.png",
     "title": "FUNDACIÓN NAVE",
     "subtitle": "REACT JS, HTML, CSS, CHAKRA UI, MongoDB, Express, Hooks, etc.",
@@ -36,7 +36,7 @@
     "web": "https://fundacion-nave.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 10,
     "image": "/assets/emilia.png",
     "title": "INVITACIÓN DIGITAL",
     "subtitle": "React, Vite, Bootstrap, Styled Components, animaciones, integraciones, Google sheets, Google forms y UX mobile-first",
@@ -45,7 +45,7 @@
     "web": "https://emilia15.netlify.app/"
   },
   {
-    "id": 12,
+    "id": 9,
     "image": "/assets/ofiflex2.png",
     "title": "OFIFLEX",
     "subtitle": "React js, Node js, Mongo DB, API, Context, SCRUM, UX-UI, Testing.",
@@ -54,7 +54,7 @@
     "web": "https://deft-tartufo-cbb0ae.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 8,
     "image": "/assets/ematian.png",
     "title": "INVITACIÓN DIGITAL",
     "subtitle": "React, Vite, Bootstrap, Styled Components, animaciones, integraciones, Google sheets, Google forms y UX mobile-first",
@@ -72,7 +72,7 @@
     "web": "https://proyectobackend-production-a5d4.up.railway.app/"
   },
   {
-    "id": 9,
+    "id": 6,
     "image": "/assets/suscription.png",
     "title": "SUSCRIPCIÓN INCONTINENCIAS",
     "subtitle": "HTML, CSS, JS vanilla, Express, MongoDB, Express, API.",
@@ -108,7 +108,7 @@
     "web": "https://brujulaportfolio.netlify.app/"
   },
   {
-    "id": 11,
+    "id": 2,
     "image": "/assets/brujucraft.png",
     "title": "CLONE MINECRAFT WEB",
     "subtitle": "React Js, CSS, VITE, THREE JS, ZUSTAND.",
@@ -117,7 +117,7 @@
     "web": "https://brujucraft.netlify.app/"
   },
   {
-    "id": 2,
+    "id": 1,
     "image": "/assets/FineGames.png",
     "title": "FINE GAMES",
     "subtitle": "HTML, CSS, JS, SASS, BOOTSTRAP, PROMISES y librerías.",
