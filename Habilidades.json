@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/Html.png",
+    "alt": "Html",
+    "clase": "w-50",
+    "skill": "HTML"
+  },
+  {
+    "id": 2,
+    "img": "/assets/Css3.png",
+    "alt": "Css",
+    "clase": "w-50",
+    "skill": "CSS"
+  },
+  {
+    "id": 3,
+    "img": "/assets/Js.png",
+    "alt": "JavaScript",
+    "clase": "w-50",
+    "skill": "JS"
+  },
+  {
+    "id": 4,
+    "img": "/assets/Github.png",
+    "alt": "Github",
+    "clase": "w-50",
+    "skill": "Github"
+  },
+  {
+    "id": 5,
+    "img": "/assets/Git.png",
+    "alt": "GIT",
+    "clase": "w-50",
+    "skill": "GIT"
+  },
+  {
+    "id": 6,
+    "img": "/assets/Atom.png",
+    "alt": "React",
+    "clase": "w-50",
+    "skill": "React"
+  },
+  {
+    "id": 7,
+    "img": "/assets/Sass.png",
+    "alt": "Sass",
+    "clase": "w-50",
+    "skill": "SASS"
+  },
+  {
+    "id": 8,
+    "img": "/assets/Nodejs.png",
+    "alt": "Node JS",
+    "clase": "w-50",
+    "skill": "NodeJs"
+  },
+  {
+    "id": 9,
+    "img": "/assets/Figma.png",
+    "alt": "Figma",
+    "clase": "w-50",
+    "skill": "Figma"
+  },
+  {
+    "id": 10,
+    "img": "/assets/Boost.png",
+    "alt": "Bootstrap",
+    "clase": "w-50",
+    "skill": "Bootstrap"
+  },
+  {
+    "id": 11,
+    "img": "/assets/Chakra.png",
+    "alt": "Chakra UI",
+    "clase": "w-50",
+    "skill": "ChakraUI"
+  },
+  {
+    "id": 12,
+    "img": "/assets/Ilustrator.png",
+    "alt": "Ilustrator",
+    "clase": "w-50",
+    "skill": "Ilustrator"
+  },
+  {
+    "id": 13,
+    "img": "/assets/MongoDB.png",
+    "alt": "Mongo DB",
+    "clase": "w-50",
+    "skill": "MongoDB"
+  },
+  {
+    "id": 14,
+    "img": "/assets/Firebase.png",
+    "alt": "Firebase",
+    "clase": "w-50",
+    "skill": "Firebase"
+  },
+  {
+    "id": 15,
+    "img": "/assets/Express.png",
+    "alt": "Express",
+    "clase": "w-50",
+    "skill": "Express"
+  },
+  {
+    "id": 16,
+    "img": "/assets/Photoshop.png",
+    "alt": "Photoshop",
+    "clase": "w-50",
+    "skill": "Photoshop"
+  },
+  {
+    "id": 17,
+    "img": "/assets/magento.png",
+    "alt": "Magento",
+    "clase": "w-50",
+    "skill": "Magento"
+  },
+  {
+    "id": 18,
+    "img": "/assets/msql.png",
+    "alt": "MySQL",
+    "clase": "w-50",
+    "skill": "MySQL"
+  },
+  {
+    "id": 19,
+    "img": "/assets/googleCloud.png",
+    "alt": "GoogleCloud",
+    "clase": "w-50",
+    "skill": "GoogleCloud"
+  },
+  {
+    "id": 20,
+    "img": "/assets/next.png",
+    "alt": "Next Js",
+    "clase": "w-75",
+    "skill": "Next Js"
+  },
+  {
+    "id": 21,
+    "img": "/assets/docker.png",
+    "alt": "Docker",
+    "clase": "w-75",
+    "skill": "Docker"
+  }
+]

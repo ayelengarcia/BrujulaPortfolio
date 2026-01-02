@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "API PASARELA – Integraciones Backend",
+    "image": "/assets/pasarela.png",
+    "subtitle": "Node.js, Express Js, Mongo DB, Botmaker, FTP, Azure, APIs REST, microservicios, integraciones y automatización",
+    "description": "Proyecto backend orientado a la integración de múltiples servicios internos desplegados en máquinas virtuales independientes, conectados mediante una API pasarela utilizada por scripts externos en Botmaker.",
+    "repo": "https://github.com/ayelengarcia/api-pasarela-integraciones",
+    "web": "https://github.com/ayelengarcia/api-pasarela-integraciones"
+  },
+  {
+    "id": 10,
+    "image": "/assets/comunidad.png",
+    "title": "FORMULARIO DE AUTOGESTIÓN",
+    "subtitle": "React Js, CSS, Express, JWT token, MySQL, Express, APIrest, Docker, GoogleCloud.",
+    "description": "Formulario de registro para programa de beneficios de Farmacias Central Oeste. Los usuarios se conectan al mismo a través de un QR. Al ingresar su DNI el cliente del formulario consulta por API a la BD maría, si no está registrado se realiza el envío por email del formulario para la autenticación del email. El mismo cuenta con un token de seguridad con un tiempo definido. Además de las APIs de consulta/alta y mailing, el cliente del formulario se comunica con la api de apis.datos.gob.ar y tiene integracion con datapickers de Material UI.",
+    "repo": "https://github.com/ayelengarcia/Formulario-Comunidad/tree/main",
+    "web": "https://comunidadcentralmas.com.ar/"
+  },
+  {
+    "id": 13,
+    "image": "/assets/react-native2.png",
+    "title": "Aplicación Móvil Ecommerce - REACT NATIVE",
+    "subtitle": "React Native, EXPO, Firebase, Google Maps API, APK.",
+    "description": "Esta es una aplicación React Native creada con Expo para Android. Funciona como una plataforma de comercio electrónico para productos de belleza, incluye categorías de Fragancias, Maquillaje, Dermocosmética, Cuidado de uñas, Cuidado del cabello y Cuidado Corporal. La aplicación integra Firebase para servicios de backend, la API de Google Maps para servicios de ubicación y admite funciones de cámara y galería.",
+    "repo": "https://github.com/ayelengarcia/shop_reactnative",
+    "web" : "https://github.com/ayelengarcia/shop_reactnative"
+  },
+  {
+    "id": 6,
+    "image": "/assets/FundNave.png",
+    "title": "FUNDACIÓN NAVE",
+    "subtitle": "REACT JS, HTML, CSS, CHAKRA UI, MongoDB, Express, Hooks, etc.",
+    "description": "Sitio Web Institucional para Fundación NAVE. Dispositivo sin fines de lucro que brinda acompañamiento en salud Salud Mental y Legales a niños y adolescentes. App SPA, con integración frontend & backend. El proyecto cuenta con integración de método de pago con Mercado Pago para donaciones y Formulario de contacto con Nodemailer.",
+    "repo": "https://github.com/ayelengarcia/Proyecto__Nave",
+    "web": "https://fundacion-nave.netlify.app/"
+  },
+  {
+    "id": 5,
+    "image": "/assets/emilia.png",
+    "title": "INVITACIÓN DIGITAL",
+    "subtitle": "React, Vite, Bootstrap, Styled Components, animaciones, integraciones, Google sheets, Google forms y UX mobile-first",
+    "description": "Proyecto freelance de invitación digital interactiva para eventos. Desarrollado con React sobre Vite, integrando librerías de animación como AOS, Animate.css y Lottie para enriquecer la experiencia visual. Incluye componentes dinámicos como contadores, sliders, códigos QR y manejo de fechas con date-fns. Los formularios se integran con Google Sheets como base de datos para la gestión de confirmaciones y respuestas. Diseño responsive con enfoque mobile-first, cuidando performance, usabilidad y una navegación fluida. Despliegue en Netlify.",
+    "repo": "https://github.com/ayelengarcia/emilia15/tree/main",
+    "web": "https://emilia15.netlify.app/"
+  },
+  {
+    "id": 12,
+    "image": "/assets/ofiflex2.png",
+    "title": "OFIFLEX",
+    "subtitle": "React js, Node js, Mongo DB, API, Context, SCRUM, UX-UI, Testing.",
+    "description": "Simulación laboral de la mano de NoCountry. Se trata de una aplicación Fullstack de reservas de estacios de trabajo con manejo de roles de usuario, para clientes y vendedores. Lista de servicios, reserva de espacios, gestión de espacios, feedback, perfil de usuarios, formularios, etc. No responsive",
+    "repo": "https://github.com/ayelengarcia/c18-19-n-node-react",
+    "web": "https://deft-tartufo-cbb0ae.netlify.app/"
+  },
+  {
+    "id": 5,
+    "image": "/assets/ematian.png",
+    "title": "INVITACIÓN DIGITAL",
+    "subtitle": "React, Vite, Bootstrap, Styled Components, animaciones, integraciones, Google sheets, Google forms y UX mobile-first",
+    "description": "Proyecto freelance de invitación digital interactiva para eventos. Desarrollado con React sobre Vite, integrando librerías de animación como AOS, Animate.css y Lottie para enriquecer la experiencia visual. Incluye componentes dinámicos como contadores, sliders, códigos QR y manejo de fechas con date-fns. Los formularios se integran con Google Sheets como base de datos para la gestión de confirmaciones y respuestas. Diseño responsive con enfoque mobile-first, cuidando performance, usabilidad y una navegación fluida. Despliegue en Netlify.",
+    "repo": "https://github.com/ayelengarcia/ema-tian",
+    "web": "https://invitacion-digitalcraft.netlify.app/"
+  },
+  {
+    "id": 7,
+    "image": "/assets/bikininfa.png",
+    "title": "BIKININFA",
+    "subtitle": "Express, MongoDB, Cookies, JWT token, handlebars, passport, socket io, testing, Mailing, etc",
+    "description": "Proyecto Backend CoderHouse. Ecommerce con integración frontend desde handlebars. Desarrollo de Server Express con tecnologías actuales, persistencia de datos, escalabilidad,  lógica de Session con Passport (local, github, google), estrategias de autenticacion y autorizacion con JWT, cookies, documentación de API, testing, parselas de pago, chat en tiempo real, arquitectura por capas, Mailing, etc. No responsive",
+    "repo": "https://github.com/ayelengarcia/ProyectoBackend",
+    "web": "https://proyectobackend-production-a5d4.up.railway.app/"
+  },
+  {
+    "id": 9,
+    "image": "/assets/suscription.png",
+    "title": "SUSCRIPCIÓN INCONTINENCIAS",
+    "subtitle": "HTML, CSS, JS vanilla, Express, MongoDB, Express, API.",
+    "description": "Formulario de satifacción con fin de suscripción/compra recurrente. Consumo de productos por API (Server Nodejs). La respuesta del usuario es guardada en una BD en MongoDB. A su vez la API es conectada con una tabla a través del cliente con la función de descarga de  CSV. Estos datos son utilizados por el area de operadoras en farmacia para el contacto manual con el usuario.",
+    "repo": "https://github.com/ayelengarcia/muestra-proyecto-incontinencias",
+    "web": "https://encuesta-centraloeste.netlify.app/"
+  },
+  {
+    "id": 5,
+    "image": "/assets/LandPage.png",
+    "title": "INVITACIÓN DIGITAL",
+    "subtitle": "React, Vite, Bootstrap, Styled Components, animaciones, integraciones, Google sheets, Google forms y UX mobile-first",
+    "description": "Proyecto freelance de invitación digital interactiva para eventos. Desarrollado con React sobre Vite, integrando librerías de animación como AOS, Animate.css y Lottie para enriquecer la experiencia visual. Incluye componentes dinámicos como contadores, sliders, códigos QR y manejo de fechas con date-fns. Los formularios se integran con Google Sheets como base de datos para la gestión de confirmaciones y respuestas. Diseño responsive con enfoque mobile-first, cuidando performance, usabilidad y una navegación fluida. Despliegue en Netlify.",
+    "repo": "https://github.com/ayelengarcia/invitacionboda-soledadybrian",
+    "web": "https://celebracion-boda.netlify.app/"
+  },
+  {
+    "id": 4,
+    "image": "/assets/shoply.png",
+    "title": "SHOPLY GAMER",
+    "subtitle": "REACT JS, HTML, CSS, CHAKRA UI, Firebase, Context, Customs Hooks & Hook effect.",
+    "description": "Proyecto React CoderHouse. Simulador Ecommerce de componentes para PC y Gaming. Desarrollo natural de React por composición. Integración de Firebase como BD. Manejo e integración de librerías y tecnicas como React Context (arbol de componentes, traspaso de props), React Router Dom (rutas dinámicas y App SPA), estilos con librería ChakraUI (sistema de grillas), Custom Hook de la Base de datos, etc.",
+    "repo": "https://github.com/ayelengarcia/shoplygamer",
+    "web": "https://shoplygamer.netlify.app"
+  },
+  {
+    "id": 3,
+    "image": "/assets/PortfolioBrujula.png",
+    "title": "PORTFOLIO BRUJULA",
+    "subtitle": "HTML, CSS, REACT JS, NODE JS, BOOTSTRAP, Styled-Components, Animaciones, Themes, Hooks",
+    "description": "Portafolio personal realizado con framework Reacts. Desarrollo de secciones por composición. Integración y uso de Librerías Bootstrap y ChakraUI para los estilos, styled-components para los Temas (Ligth-Dark), react-slick para sliders y carouseles, compilacion con Vite Js. Enfoque First mobile. Estilos y animaciones con CSS, Hooks de estado, JSON.",
+    "repo": "https://github.com/ayelengarcia/BrujulaPortfolio",
+    "web": "https://brujulaportfolio.netlify.app/"
+  },
+  {
+    "id": 11,
+    "image": "/assets/brujucraft.png",
+    "title": "CLONE MINECRAFT WEB",
+    "subtitle": "React Js, CSS, VITE, THREE JS, ZUSTAND.",
+    "description": "Clon de Minecraft web. Práctica con la librería three siguiendo la guía práctica de @midudev. Esta micro aplicación es una simulación de una escena bàsica de Minecraft.Envuelto en un lienzo (canvas) se encuentra el cielo, cámara y las físicas creando la escena. Las físicas compuestas por el jugador (esfera), el suelo y los cubos propios de Minecraft. Se crearon dos customs Hooks que contienen la configuración del teclado y los eventos para las acciones del jugador.",
+    "repo": "https://github.com/ayelengarcia/cloneMinecraft1",
+    "web": "https://brujucraft.netlify.app/"
+  },
+  {
+    "id": 2,
+    "image": "/assets/FineGames.png",
+    "title": "FINE GAMES",
+    "subtitle": "HTML, CSS, JS, SASS, BOOTSTRAP, PROMISES y librerías.",
+    "description": "Simulador Ecomerce de Store de juegos inspirada en algunas de las más conocidas. Desarrollo con JavaScript vanilla, utilización de tecnología AJAX, Fetch y JSON para simular el intercambio Backend y el consumo de API. Se utilizó bootstrap como framework, sin embargo la mayorÍa de modales y eventos fueron creadas con CSS puro y Js.",
+    "repo": "https://github.com/ayelengarcia/FineGames.ProyectoCoder-JS",
+    "web": "https://ayelengarcia.github.io/FineGames.ProyectoCoder-JS/"
+  }
+]

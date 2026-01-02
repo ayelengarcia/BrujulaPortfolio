@@ -1,0 +1,30 @@
+[ 
+    {
+    "title": "CARRERA DESARROLLO APLICACIONES",
+    "date": "Abr 2022-Ago 2024",
+    "description": "REACT NATIVE. Creacion de aplicaciones con despliegue tanto para Android como iOS, utilizando React Native y Javascript. Frontend & Backend.",
+    "certificateLink": "https://pub.coderhouse.com/legacy-certificates/66be3ffd98ea5367b241e624?lang=es",
+    "btn": "CERTIFICADO"
+  },
+  {
+    "title": "CARRERA FULL STACK",
+    "date": "Ago 2022-Dic 2023",
+    "description": "Certificación Carrera de Desarrollo Full Stack. Desarrollo Web, Java Script, React Js, Programación Backend.",
+    "certificateLink": "https://pub.coderhouse.com/legacy-certificates/6579706c7f710a241dd1430d?lang=es",
+    "btn": "CERTIFICADO"
+  },
+    {
+    "title": "PROGRAMACIÓN BACKEND",
+    "date": "Abr 2023-Dic 2023",
+    "description": "Curso de Programación Backend. Desarrollo de aplicaciones Web con Node.js y MongoDB. Javascript del lado del servidor, BD NoSQL, técnicas asincrónicas.",
+    "certificateLink": "https://pub.coderhouse.com/legacy-certificates/6579706c7f710ac40ed142f4?lang=es",
+    "btn": "CERTIFICADO"
+  },
+    {
+    "title": "CARRERA FRONTEND REACT JS",
+    "date": "Jul 2022-Feb 2023",
+    "description": "Certificación Carrera de Desarrollo Frontend con React. Desarrollo Web, Java Script, React Js. Creación de aplicaciones SPA.",
+    "certificateLink": "https://pub.coderhouse.com/legacy-certificates/63f4da5ef60683000ebc356e?lang=es",
+    "btn": "CERTIFICADO"
+  }
+]
