@@ -30,7 +30,7 @@ const about = () => {
         <h2 className="jr-front">FULLSTACK DEVELOPER</h2>
         <p className="pb-0 pt-2 text-more">
           Actualmente me desempeño como Desarrolladora{" "}
-          <span>Frontend y FullStack</span> con casi 2 años de experiencia. Me
+          <span>Frontend y FullStack</span> con casi 3 años de experiencia. Me
           encanta el mundo del gaming y trabajo con esa inspiración en la
           mayoría de mis proyectos personales.
           <br />
